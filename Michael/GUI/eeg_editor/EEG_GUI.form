@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="Menu_Bar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="Menu_Abrir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Abrir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Menu_AbrirMouseClicked"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Menu_Salvar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="Menu_Bar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="Painel_Marcador_Eventos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Painel_Inferior" max="32767" attributes="0"/>
+                  <Component id="Painel_Graficos" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Painel_Marcador_Eventos" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Component id="Painel_Graficos" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Painel_Inferior" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Painel_Marcador_Eventos">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="Event_Field_1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_2" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_3" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_4" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_4" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_5" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_6" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_6" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_7" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_7" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_8" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_8" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_9" pref="142" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_9" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_10" pref="136" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_10" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_11" pref="136" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_11" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_12" pref="136" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_12" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_13" pref="106" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_13" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_14" pref="106" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_14" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="Event_Field_15" pref="106" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Button_Event_15" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_1" max="32767" attributes="0"/>
+                      <Component id="Button_Event_1" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_2" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_3" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_4" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_5" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_6" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_7" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_7" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_8" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_9" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_10" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_10" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_11" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_11" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_12" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_12" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_13" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_13" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_14" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_14" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Event_Field_15" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Button_Event_15" alignment="0" pref="35" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F1&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="action" source="Button_Event_1" sourcePath="${selected}" target="Button_Event_1" targetPath="action" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button_Event_1ActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F1_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Event_Field_1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F2&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="action" source="Button_Event_2" sourcePath="${selected}" target="Button_Event_2" targetPath="action" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F2_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F3&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_3" sourcePath="${selected}" target="Button_Event_3" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F3_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F4&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_4" sourcePath="${selected}" target="Button_Event_4" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F4_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F5&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_5" sourcePath="${selected}" target="Button_Event_5" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F5_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F6&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_6" sourcePath="${selected}" target="Button_Event_6" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F6_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F7&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_7" sourcePath="${selected}" target="Button_Event_7" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F7_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento7"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Event_Field_7ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F8&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_8" sourcePath="${selected}" target="Button_Event_8" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F8_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento9"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F9&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_9" sourcePath="${selected}" target="Button_Event_9" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F9_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F10&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_10" sourcePath="${selected}" target="Button_Event_10" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F10_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F11&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_11" sourcePath="${selected}" target="Button_Event_11" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F11_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Event_Field_11ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento12"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F12&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_12" sourcePath="${selected}" target="Button_Event_12" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F12_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento13"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F1&gt;+&lt;Alt&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_13" sourcePath="${selected}" target="Button_Event_13" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F1_Alt_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento14"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Event_Field_14ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F2&gt;+&lt;Alt&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_14" sourcePath="${selected}" target="Button_Event_14" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F2_Alt_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="Button_Event_15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;F3&gt;+&lt;Alt&gt;"/>
+          </Properties>
+          <BindingProperties>
+            <BindingProperty name="selected" source="Button_Event_15" sourcePath="${selected}" target="Button_Event_15" targetPath="selected" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="F3_Alt_Pressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Event_Field_15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Evento15"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="Painel_Inferior">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="90" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="Painel_Graficos">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="1397" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="780" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
